@@ -20,8 +20,10 @@
 header{
     background-color: #03386E;
     color: white;
-    height: 7vh;
+    height: auto;
 }
+
+
 
 ul{
     height: 100%;
@@ -63,7 +65,7 @@ i:hover{
 
 #imgLOGO{
     color: white;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 
 
@@ -90,6 +92,13 @@ i:hover{
     width: 100%;
 
 }
+.cardsProdutos h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 .cardsProdutos button{
     background-color: #d57535;
@@ -108,11 +117,17 @@ i:hover{
 .valor{
     color: rgb(189, 158, 6);
     font-weight: 600 ;
+
 }
 
 .actions{
     display: flex;
     align-items: center;
+    margin-top: 20px;
+}
+span{
+    font-size: 20px;
+    color: rgb(41, 40, 37);
 }
 
 .fa-cart-plus{
