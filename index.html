@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Ecommerce</title>
+    <title>Ecommerce CDS</title>
 </head>
 
 <body>
@@ -16,18 +16,17 @@
             <nav>
                 <ul class="flex">
                     <li>
-                        <a id="imgLOGO" href="index.html">
-                            Ecommerce CDS
-                            
-                        </a>
+                        <a id="imgLOGO" href="index.html">Ecommerce CDS</a>
                     </li>
+
                     <li class="search">
-                        <input type="text" id="search">
+                        <input type="text" id="search" placeholder="Pesquisar...">
                         <i class="fa-solid fa-magnifying-glass pesquisar"></i>
                     </li>
 
-                    <li>
+                    <li class="carrinhoHeader">
                         <i class="fa-solid fa-cart-shopping iconNav"></i>
+                        <span id="contadorCarrinho">0</span>
                     </li>
                 </ul>
             </nav>
@@ -35,10 +34,20 @@
     </header>
 
     <div class="container">
-        <div id="produtos">
+        <div id="produtos"></div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modalProduto" class="modal">
+        <div class="modal-content">
+            <span id="fecharModal" class="fechar">&times;</span>
+            <img id="modalImg">
+            <h2 id="modalTitulo"></h2>
+            <p id="modalPreco"></p>
+            <p id="modalDescricao"></p>
         </div>
     </div>
-    
+
     <script src="scripts.js"></script>
 </body>
 

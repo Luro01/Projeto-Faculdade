@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Fone de Ouvido Bluetooth",
+        "price": 649.90,
+        "description": "Liberdade total sem fios, cancelamento de ruído ativo, som imersivo e 30h de bateria.",
+        "image": "assets/imgs/Fone de Ouvido Bluetooth.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Smartwatch",
+        "price": 1199.00,
+        "description": "Monitoramento 24h, batimentos, SpO2, sono, 50 modos de esporte e GPS integrado.",
+        "image": "assets/imgs/Smartwatch.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Mochila Urbana Anti-Furto",
+        "price": 389.90,
+        "description": "Material reciclado, à prova d’água, zíperes ocultos, notebook 15.6 e porta USB.",
+        "image": "assets/imgs/Mochila Urbana Anti-Furto.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Teclado Mecânico Compacto",
+        "price": 499.00,
+        "description": "Layout 65%, switches brown silenciosos e RGB personalizável.",
+        "image": "assets/imgs/Teclado Mecânico Compacto.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Cafeteira Expressa",
+        "price": 949.00,
+        "description": "Moagem na hora, ajuste de intensidade e vaporizador para cappuccino perfeito.",
+        "image": "assets/imgs/Cafeteira Expressa.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Garrafa Térmica 750ml",
+        "price": 139.90,
+        "description": "Aço inox, 24h gelado, 12h quente, livre de BPA e tampa anti-vazamento.",
+        "image": "assets/imgs/Garrafa Térmica 750ml.jpeg"
+    },
+    {
+        "id": 7,
+        "title": "Luminária de Mesa LED",
+        "price": 219.00,
+        "description": "3 tons de cor, 5 intensidades e design minimalista com braço flexível.",
+        "image": "assets/imgs/Luminária de Mesa LED.jpeg"
+    },
+    {
+        "id": 8,
+        "title": "Tênis Casual",
+        "price": 299.90,
+        "description": "Conforto e estilo, lona premium e solado vulcanizado.",
+        "image": "assets/imgs/Tênis Casual.jpeg"
+    },
+    {
+        "id": 9,
+        "title": "Câmera de Segurança Wi-Fi 360°",
+        "price": 279.00,
+        "description": "Full HD, visão noturna, detecção de movimento, áudio bidirecional e giro 360°.",
+        "image": "assets/imgs/Câmera de Segurança Wi-Fi 360°.jpeg"
+    },
+    {
+        "id": 10,
+        "title": "Kit de Velas Aromáticas",
+        "price": 119.90,
+        "description": "Kit com 3 velas aromáticas (Lavanda, Baunilha, Sândalo) feitas com cera de soja.",
+        "image": "assets/imgs/Kit de Velas Aromáticas.jpeg"
+    }
+]
